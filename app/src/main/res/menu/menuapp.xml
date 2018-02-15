@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/miEnviarMensaje"
+        android:title="Enviar Mensaje"></item>
+    <item android:id="@+id/miRegistrarUsuario"
+        android:title="Crear Registro"></item>
+    <item android:id="@+id/miListarUsuarios"
+    android:title="Lista de Contactos"></item>
+    <item android:id="@+id/miListarGrupo"
+        android:title="Lista de Grupos"></item>
+    <item
+        android:id="@+id/miBusuqeda"
+        android:hint="Buscar por Apellido"
+        android:icon="@mipmap/ic_action_search"
+        android:title="Buscar por Apellido"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/miCrear"
+        android:hint="Crear Nuevo Registro"
+        android:icon="@mipmap/ic_action_add"
+        android:title="Crear Nuevo Registro"
+        app:showAsAction="ifRoom|collapseActionView"></item>
+</menu>

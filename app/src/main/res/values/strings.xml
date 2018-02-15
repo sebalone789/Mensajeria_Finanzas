@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mensajeria E.P. Finanzas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="mensajeConfirmacion">Los Mensajes han sido enviados exitosamente</string>
+    <string name="mensajeConfirmacionEliminacion">¿Desea eliminar este registro?</string>
+    <string name="mensajeConfirmacionCreacion">Registro Nuevo Creado</string>
+    <string name="mensajeRegistroExistenete">Ya existe un registro con esos datos</string>
+    <string name="ok">OK</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="media_dialog">Media preview</string>
+    <string name="dir_info">Folder Information</string>
+    <string name="manager_act">Phone Management</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

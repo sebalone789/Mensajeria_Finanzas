@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/botonMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="Enviar Mensaje"
+        />
+
+    <EditText
+        style="@style/colorTexto"
+        android:id="@+id/txtMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:hint="Mensaje"
+        android:ems="10"
+        android:inputType="textMultiLine|textCapSentences">
+        <requestFocus/>
+    </EditText>
+
+    <Spinner
+        style="@style/colorTexto"
+        android:id="@+id/listaGruposMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/txtMensaje"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:id="@+id/txtSelecGrupoMain"
+        style="@style/colorTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMensaje"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Seleccionar Grupo"
+        android:textSize="20dp" />
+
+</RelativeLayout>

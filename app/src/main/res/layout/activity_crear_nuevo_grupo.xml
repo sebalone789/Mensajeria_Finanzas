@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="finanzas.p.e.mensajeriaepfinanzas.Control.CrearNuevoGrupo">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        style="@style/colorTexto">
+
+
+        <TextView
+            style="@style/colorTexto"
+            android:id="@+id/txtTituloGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:text="Crear Nuevo Grupo"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            style="@style/colorTexto"
+            android:id="@+id/txtNombreGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_below="@+id/txtTitulo"
+            android:hint="Nombre del Grupo"
+            android:ems="10"
+            android:inputType="textCapWords">
+            <requestFocus />
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/btnCrearGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:text="Crear Grupo"/>
+
+        <Button
+            android:id="@+id/btnCancelarGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="30dp"
+            android:text="Cancelar"
+            android:layout_alignTop="@+id/btnCrearGrupo" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
